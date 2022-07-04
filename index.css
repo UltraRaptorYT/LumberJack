@@ -1,0 +1,16 @@
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  width: 100vw;
+  height: 100vh;
+  height: calc(var(--vh, 1vh)*100);
+  overflow: hidden;
+}
+
+#canvasDiv {
+  aspect-ratio: 9/16;
+}
