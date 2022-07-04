@@ -11,8 +11,16 @@ html,body {
   overflow: hidden;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #canvasDiv {
-  aspect-ratio: 9/16;
+  aspect-ratio: 9/16; 
+  /* width: 360px; */
+  height: 100%;
 }
 
 canvas {
