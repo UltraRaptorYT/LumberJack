@@ -11,7 +11,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
     />
   </head>
-  <body onload="main()">
+  <body onload="startGame()">
     <div id="canvasDiv">
       <div id="titleScreen"></div>
       <canvas id="canvas"> </canvas>
@@ -20,7 +20,6 @@
     </div>
     <script>
       let vh = 0.01 * window.innerHeight;
-      console.log(vh);
       document.documentElement.style.setProperty("--vh", vh + "px");
     </script>
     <script src="./index.js"></script>
