@@ -179,7 +179,7 @@ function updatePosition(direction, player, branchDict) {
   player.update();
   console.log(direction, Math.floor(player.level % 2));
   if (Math.floor(player.level % 2) == 1) updateBranch(branchDict);
-  if (branchDict[direction][Math.floor(player.level % 2)] == 1) {
+  if (branchDict[direction][Number(!Math.floor(player.level % 2))] == 1) {
     console.log("dye");
   }
 }
